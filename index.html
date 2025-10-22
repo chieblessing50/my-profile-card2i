@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blessing Uzoma / Profile</title>
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+         <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About me</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+        <article data-testid="test-profile-card" class="profile-card">
+            <div class="profile-container">
+            <figure class="avatar-container">
+                <img src="my profile picture.jpg" alt="profile photo of Blessing Uzoma"   data-testid="test-user-avatar">
+            </figure>
+                
+                <main class="content">
+                    <header>
+                        <h2 data-testid="test-user-name">Blessing Uzoma</h2>
+                    </header>
+                    
+                    <p data-testid="test-user-bio">A passionate frontend developer with a knack for creating beautiful and functional web applications.</p>
+                    
+                    <p>current time in milliseconds: <span data-testid="test-user-time"
+                        id="current-time"></span>
+                    </p>
+                    
+                    <nav aria-label="social link">
+                        <ul data-testid="test-social-links">
+                            <li><a href="https://twitter.com/blessinguzoma50" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                            <li><a href="https://github.com/chieblessing50" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li><a href="https://linkedin.com/in/chiemeriwo-uzoma-ba48a2379" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <section>
+                        <h3>Hobbies</h3>
+                        <ul data-testid="test-user-hobbies">
+                            <li>Cooking</li>
+                            <li>Coding</li>
+                            <li>Traveling</li>
+                            <li>Getting engaged in conversations</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h3>Dislikes</h3>
+                        <ul data-testid="test-user-dislikes">
+                            <li>Telling lies</li>
+                            <li>Procrastination</li>
+                            <li>Lateness</li>
+                        </ul>
+                    </section>
+                
+                </main>
+            </div>
+            </article>
+            <footer>
+                <p>&copy; <span id="year"></span> BlessingTech - Built by Blessing Uzoma.</p>
+            </footer> 
+            <script src="script.js"></script>
+        </body>
+        </html>
